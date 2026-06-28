@@ -3,7 +3,7 @@ import requests
 
 app = Flask(__name__)  #intialize object to class flask
 
-API_Key = "c3ba553a1debd0f0b4fc926bbcac2cef"
+API_Key = "apikey"
 
 @app.route("/", methods=["GET","POST"]) # to get and post user data from forms(Html) an it is a decoretor
 def home():# default home function
